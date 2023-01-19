@@ -1,0 +1,15 @@
+<!-- <p>student works!</p> -->
+<h3>Name: {{studentIn.firstName}} {{studentIn.lastName}}</h3>
+<br>
+<p>Age: {{studentIn.age}}</p>
+<p>Gender: {{studentIn.gender}}</p>
+<p>Nationality: {{studentIn.nationality}}</p>
+<p>Home Address: {{studentIn.homeaddress}}</p>
+<p>Status: {{studentIn.status}}</p>
+<br><br>
+<h3>{{studentIn.title}}</h3>
+<br>
+<p>Elementary School: {{studentIn.elementaryschool}}</p>
+<p>High School: {{studentIn.highschool}}</p>
+<p *ngIf = "studentIn.college">College: {{studentIn.college}}</p>
+<p *ngIf = "studentIn.degree">Degree: {{studentIn.degree}}</p>

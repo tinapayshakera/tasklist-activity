@@ -1,0 +1,36 @@
+
+*{
+  margin: auto;
+  text-align: center;
+  background-color: rgb(162, 55, 230);
+}
+h1,h2,h3{
+  color: black;
+
+}
+div {
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 15px;
+  box-shadow: rgb(241, 187, 61) 10px 20px 30px -10px;
+  padding: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.box{
+  margin-top: 0px;
+}
+.add-new-Task{
+  cursor: pointer;
+  width: 80px;
+  margin-top: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.add-new-Task:hover{
+  background-color:#cb72e6;
+  transition: 0.7s;
+}
+
+
+

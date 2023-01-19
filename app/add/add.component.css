@@ -1,0 +1,19 @@
+*{
+  margin: auto;
+  }
+h2{
+  color: black;
+  /* text-align: center; */
+}
+button{
+  margin-right: 150px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 80px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+

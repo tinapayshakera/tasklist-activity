@@ -1,0 +1,52 @@
+<div>
+  <h1>{{title}}</h1>
+  <br>
+  <h2>Our First Angular Project </h2>
+  <br>
+  <h2>TaskList</h2>
+</div>
+
+<!-- <nav>
+<ul>
+  <li><a routerLink="/first-component">First Component</a></li>
+  <li><a routerLink="/second-component">Second Component</a></li>
+  <li><a routerLink="/third-component">Third Component</a></li>
+  <li><a routerLink="/fourth-component">Fourth Component</a></li>
+
+</ul>
+</nav>
+<router-outlet></router-outlet> -->
+<!-- <div *ngIf="!isAddStudent">
+    <h2>Student List</h2>
+    <button (click)="addNewStudent()">Add New Student</button>
+    <div *ngFor="let student of studentsList">
+      <app-student [studentIn]="student"></app-student>
+      </div>
+  </div>
+
+
+
+
+  <div *ngIf="isAddStudent">
+    <app-add-student (studentOut)="addStudent($event)"></app-add-student>
+  </div> -->
+
+
+
+
+  <!-- TASK ACTIVITY -->
+
+
+  <div *ngIf="!isAddTask">
+    <h2>Task List</h2>
+    <button class="add-new-Task" (click)="addNewTask()">Add New Task</button>
+    <div *ngFor="let task of taskList">
+      <app-task [taskIn]="task"></app-task>
+      </div>
+  </div>
+
+  <div *ngIf="isAddTask">
+    <app-add-task (taskOut)="addTask($event)"></app-add-task>
+  </div>
+  <br><br><br>
+

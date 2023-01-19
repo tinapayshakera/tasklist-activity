@@ -1,0 +1,22 @@
+input {
+  display: inline-block;
+  float: right;
+  margin-left: -180px;
+}
+label{
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+}
+
+.add-task{
+width: 55px;
+border-radius: 10px;
+background-color: blueviolet;
+font-weight: bold;
+}
+.add-task:hover{
+  background-color:#cb72e6;
+  transition: 0.7s;
+}

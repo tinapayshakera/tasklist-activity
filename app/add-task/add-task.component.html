@@ -1,0 +1,16 @@
+<!-- <p>add-task works!</p> -->
+
+<h3>Add Task</h3>
+<br><br>
+<form [formGroup]="taskForm" (ngSubmit)="addTask()">
+  <label for="name">Name:</label>
+  <input id="name" type="text" formControlName="name">
+ <br><br>
+  <label for="description">Description:</label>
+  <input id="description" type="text" formControlName="description">
+  <br><br>
+   <label for="assignedto">Assigned To:</label>
+  <input id="assignedto" type="text" formControlName="assignedto">
+  <br><br>
+  <button class="add-task" type="submit">Add Task</button>
+</form>
